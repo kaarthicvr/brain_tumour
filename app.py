@@ -5,7 +5,7 @@ import numpy as np
 import cv2
 
 # Load your trained model
-model = tf.keras.models.load_model(r'C:\Users\kkrav\OneDrive\Documents\data_science projects\brain tumour\brain_tumor.h5')
+model = tf.keras.models.load_model(r'\brain_tumor.h5')
 
 # Function to process and predict the image
 def import_and_predict(image_data, model):
